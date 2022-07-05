@@ -8,14 +8,12 @@ const searchButton = document.getElementById('searchButton')
 
 const setQuery = (e) => {
     if (e.keyCode == '13') {
-        hsn(searchBar.value)
         getResult(searchBar.value)
         searchBar.value = ''
     }
 }
 
 const tryQuery = () => {
-    hsn(searchBar.value)
     getResult(searchBar.value)
     searchBar.value = ''
 }
