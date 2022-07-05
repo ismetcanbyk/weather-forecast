@@ -53,11 +53,6 @@ searchBar.addEventListener('keypress', setQuery)
 searchButton.addEventListener('click', tryQuery)
 
 
-function hsn(city) {
-    if (city === "hasan") {
-        searchBar.value = "Kars"
-        document.body.style.backgroundImage = "url(https://i.hizliresim.com/1mrg2zc.jpg)";
-    }
-}
+
 
 
